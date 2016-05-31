@@ -1,0 +1,112 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow:hidden;	
+	font-family: Arial, Helvetica, sans-serif;
+	color:#898989;
+	font-size: 12px;
+	word-spacing: normal;
+	letter-spacing: normal;
+	background-color: #000;
+	-webkit-text-size-adjust:none;  
+    -webkit-overflow-scrolling: touch;
+    
+}
+
+body {
+	position: relative;
+}
+
+img {
+	border:0;
+}
+
+
+@font-face {
+    font-family: 'sf_movie_posterbold';
+    src: url('fonts/sf_movie_poster_bold_webfont.eot');
+    src: url('fonts/sf_movie_poster_bold_webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sf_movie_poster_bold_webfont.woff2') format('woff2'),
+         url('fonts/sf_movie_poster_bold_webfont.woff') format('woff'),
+         url('fonts/sf_movie_poster_bold_webfont.ttf') format('truetype'),
+         url('fonts/sf_movie_poster_bold_webfont.svg#sf_movie_posterbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #222;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #333;
+}
+
+a:link {
+	border: none;
+	text-decoration: none;
+}
+a:visited {
+	border: none;
+	text-decoration: none;
+}
+a:active {
+	border: none;
+	text-decoration: none;
+}
+a:hover {
+	border: none;
+	text-decoration: underline;
+}
+
+
+#site_holder {
+	display:none;
+	position: relative;
+	width: 100%;
+	height:100%;
+	margin: 0;
+	overflow-y:scroll;
+	overflow-x:hidden;	
+
+}	
+
+#site_container {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+	background-color: #000;
+}
+
+#site_content {
+	position: relative;
+	clear:both;
+	width:3000px;
+	height:100%;
+	overflow: hidden;
+}
+
+
+#page_holder {
+	float:left;
+}
+
+#top_nav {
+	display:none;
+}
+#site_logo {
+	display:none;
+}	
+
+
+
+
